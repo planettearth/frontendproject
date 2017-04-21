@@ -796,7 +796,7 @@
 }
 
 .light-blue.lighten-1 {
-  background-color: #d2b29b !important;
+  background-color: #673ab7 !important;
 }
 
 .light-blue-text.text-lighten-1 {
@@ -4018,7 +4018,6 @@ nav.nav-extended {
 }
 
 nav.nav-extended .nav-wrapper {
-  background-color: #673ab7;
   min-height: 56px;
   height: auto;
 }
@@ -4042,6 +4041,7 @@ nav i.material-icons {
 }
 
 nav .nav-wrapper {
+  background-color: #673ab7;
   position: relative;
   height: 100%;
 }
