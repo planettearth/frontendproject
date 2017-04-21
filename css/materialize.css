@@ -2325,8 +2325,25 @@ svg:not(:root) {
  * Address margin not present in IE 8/9 and Safari.
  */
 figure {
-  margin: 1em 40px;
+  margin: 1em 4px;
 }
+
+div.figure {
+  animation-timing-function: ease-in-out;
+  animation-duration: 2400ms;
+  animation-name: moveRight;
+}
+@keyframes moveRight {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(400px) ;
+
+  }
+}
+
 
 /**
  * Address differences between Firefox and other browsers.
