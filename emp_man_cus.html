@@ -9,6 +9,20 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <style>
+table, th, td {
+    border: 1px solid black;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color:   #696969;
+    color: white;
+</style>
 </head>
 
 
@@ -18,40 +32,79 @@
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Automobile Maintenance</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="promotion.html">Promotion</a></li>
-        <li><a href="service.html">Service</a></li>
-        <li><a href="aboutus.html">About us</a></li>
+      
         <li><a href="login.html">Login</a></li>
       </ul>
 
+  
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
     </div>
   </nav>
 
 
 
- <div class="section no-pad-bot" id="index-banner">
+
+
+  <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h4 class="header orange-text">ทะเบียน 2554</h4>
-      <br>
-      <h4 class="header orange-text">วันรับรถ 10/12/2561</h4>
-      <br>
-      <h4 class="header orange-text">รายการซ่อมอ่ะไหล่</h4>
-      <br>
-      <h5 class="header black-text">น้ำมันเครื่อง</h5>
-      <h5 class="header black-text">ฟิมล์</h5>
-      <h5 class="header black-text">ยาง</h5>
-      <h5 class="header black-text">ล้อ</h5>
-      <br><br>
-      <i class="large material-icons" >verified_user</i>
-      <h1 class="header green-text">Complete  55%</h1>
-      </div>
+      <h1 class="header center orange-text">ข้อมูลลูกค้า</h1>
+      <div class="row center">
+
     </div>
   </div>
 
 
-    
+
+
+
+
+
+<div class="row">
+    <form class="container">
+      
+      <table id="t01" style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Tel</th> 
+    <th>E-mail</th>
+    <th>Address</th>
+  </tr>
+  <tr>
+    <td>Jitpanu tan</td>
+    <td>0890000009</td> 
+    <td>aaaaaa@hotmail.com</td>
+    <td>111 khlong 4 bkk 20000</td>
+
+  </tr>
+  <tr>
+    <td>Anuchita Mat</td>
+    <td>0890023009</td> 
+    <td>bbbbb@hotmail.com</td>
+    <td>111 sriracha chonburi 20110</td>
+  </tr>
+  <tr>
+    <td>Preeyarat S</td>
+    <td>0893023009</td> 
+    <td>ccccc@hotmail.com</td>
+    <td>Saraburi 30000</td>
+  </tr>
+</table>
+      
+      
+    </form>
+  </div>
+
+
+<div class="row center">
+        
+          
+          
+
+          </div>
+
+        
       
 
 
@@ -60,7 +113,7 @@
 
   
 
-  <footer class="page-footer">
+  <footer class="page-footer orange">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
