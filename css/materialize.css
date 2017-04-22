@@ -691,6 +691,7 @@
 }
 
 .blue-text.text-lighten-1 {
+  font-size: 50px;
   color: #42A5F5 !important;
 }
 
@@ -2834,6 +2835,7 @@ ul.staggered-list li {
 
 @media only screen and (max-width: 992px) {
   .hide-on-med-and-down {
+    font-size: 100px;
     display: none !important;
   }
 }
