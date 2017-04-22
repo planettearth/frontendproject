@@ -2158,9 +2158,16 @@ html {
  * Remove default margin.
  */
 body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   margin: 0;
   background-color: #ECF0F1;
 }
+
+main {
+    flex: 1 0 auto;
+  }
 
 /* HTML5 display definitions
    ========================================================================== */
