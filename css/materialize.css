@@ -2332,12 +2332,13 @@ div.figure {
   animation-timing-function: ease-in-out;
   animation-duration: 2400ms;
   animation-name: moveRight;
+  
+
 }
 @keyframes moveRight {
   from {
     transform: translateX(0);
   }
-
   to {
     transform: translateX(400px) ;
 
