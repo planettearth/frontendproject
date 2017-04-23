@@ -4041,16 +4041,19 @@ nav {
 
 nav.nav-extended {
   height: auto;
+
 }
 
 nav.nav-extended .nav-wrapper {
   min-height: 56px;
   height: auto;
+
 }
 
 nav.nav-extended .nav-content {
   position: relative;
   line-height: normal;
+
 }
 
 nav a {
@@ -4075,6 +4078,7 @@ nav .nav-wrapper {
 @media only screen and (min-width: 993px) {
   nav a.button-collapse {
     display: none;
+
   }
 }
 
@@ -4084,11 +4088,13 @@ nav .button-collapse {
   z-index: 1;
   height: 56px;
   margin: 0 18px;
+
 }
 
 nav .button-collapse i {
   height: 56px;
   line-height: 56px;
+
 }
 
 nav .brand-logo {
@@ -4111,14 +4117,18 @@ nav .brand-logo.center {
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
+    
+
   }
   nav .brand-logo.left, nav .brand-logo.right {
     padding: 0;
     -webkit-transform: none;
             transform: none;
+
   }
   nav .brand-logo.left {
     left: 0.5rem;
+
   }
   nav .brand-logo.right {
     right: 0.5rem;
@@ -4129,6 +4139,7 @@ nav .brand-logo.center {
 nav .brand-logo.right {
   right: 0.5rem;
   padding: 0;
+
 }
 
 nav .brand-logo i,
@@ -4136,31 +4147,36 @@ nav .brand-logo [class^="mdi-"], nav .brand-logo [class*="mdi-"],
 nav .brand-logo i.material-icons {
   float: left;
   margin-right: 15px;
+
 }
 
 nav .nav-title {
   display: inline-block;
   font-size: 32px;
   padding: 28px 0;
+
 }
 
 nav ul {
   margin: 0;
+
 }
 
 nav ul li {
   transition: background-color .3s;
   float: left;
   padding: 0;
+
 }
 
 nav ul li.active {
   background-color: rgba(0, 0, 0, 0.1);
+
 }
 
 nav ul a {
   transition: background-color .3s;
-  font-size: 1rem;
+  font-size: 1.75rem;
   color: #fff;
   display: block;
   padding: 0 15px;
@@ -4263,11 +4279,11 @@ nav .input-field label.active i {
          url('bangna-new-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 a {
   text-decoration: none;
+
 }
 
 html {
@@ -4298,10 +4314,12 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.1;
+
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit;
+
 }
 
 h1 {
@@ -4341,10 +4359,12 @@ h6 {
 }
 
 em {
+
   font-style: italic;
 }
 
 strong {
+
   font-weight: 500;
 }
 
