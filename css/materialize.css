@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'sullivanregular';
+    src: url('sullivan-webfont.eot');
+    src: url('sullivan-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sullivan-webfont.woff2') format('woff2'),
+         url('sullivan-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bangna_newregular';
+    src: url('bangna-new-webfont.eot');
+    src: url('bangna-new-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bangna-new-webfont.woff2') format('woff2'),
+         url('bangna-new-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*!
  * Materialize v0.98.0 (http://materializecss.com)
  * Copyright 2014-2015 Materialize
@@ -2150,7 +2171,7 @@
  *    without disabling user zoom.
  */
 html {
-  font-family: 'sullivanregular', 'bangna_newregular', sans-serif;;
+  font-family: 'sullivanregular', 'bangna_newregular', sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -2374,7 +2395,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'sullivanregular', 'bangna_newregular', ;
   font-size: 1em;
 }
 
@@ -2835,7 +2856,6 @@ ul.staggered-list li {
 
 @media only screen and (max-width: 992px) {
   .hide-on-med-and-down {
-    font-size: 100px;
     display: none !important;
   }
 }
@@ -4259,7 +4279,7 @@ nav .input-field label.active i {
     height: 64px;
   }
 }
-@font-face {
+/*@font-face {
     font-family: 'sullivanregular';
     src: url('sullivan-webfont.eot');
     src: url('sullivan-webfont.eot?#iefix') format('embedded-opentype'),
@@ -4272,14 +4292,18 @@ nav .input-field label.active i {
 
 @font-face {
     font-family: 'bangna_newregular';
-/*    unicode-range: U+0E00–U+0E7F;*/
     src: url('bangna-new-webfont.eot');
     src: url('bangna-new-webfont.eot?#iefix') format('embedded-opentype'),
          url('bangna-new-webfont.woff2') format('woff2'),
          url('bangna-new-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+<<<<<<< HEAD
 }
+=======
+
+}*/
+>>>>>>> origin/master
 
 a {
   text-decoration: none;
